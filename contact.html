@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antica Hair Studio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/jquery.bxslider.css" media="all" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" media="all" />
+    <link rel="stylesheet" href="css/global.css" media="all">
+    <link rel="stylesheet" href="css/layout.css" media="all">
+    <link rel="stylesheet" href="css/animate.css" media="all">
+    <link rel="stylesheet" href="css/diamonds.css" media="all">
+    <link rel="stylesheet" href="css/demo.css" media="all">
+    <link rel="stylesheet" href="css/jquery-ui-date.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+    <link rel="stylesheet" type="text/css" href="css/cs-skin-border.css" />
+    <link rel="stylesheet" href="css/timepicki.css" media="all">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bulma.min.css" media="all">
+    <!--[if (lt IE 9) & (!IEMobile)]>
+<link rel="stylesheet" href="css/layout_ie.css" media="all">
+<![endif]-->
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img class="wow fadeInDown" src="images/logoHeader.png" /></a>
+        </div>
+        <div class="menu">
+            <nav class="navbar">
+                <p class="navbar-item is-text-centered">
+                    <a class="link is-info" href="index.html">Acasa</a>
+                </p>
+                <p class="navbar-item is-text-centered">
+                    <a class="link is-info" href="despre-noi.html">Despre Noi</a>
+                </p>
+                <p class="navbar-item is-text-centered">
+                    <a class="link is-info" href="noutati.html">A World</a>
+                </p>
+                <p class="navbar-item is-text-centered">
+                    <a class="link is-info" href="servicii.html">Servicii</a>
+                </p>
+                <p class="navbar-item is-text-centered">
+                    <a class="link is-info" href="preturi.html">Preturi</a>
+                </p>
+                <p class="navbar-item is-text-centered">
+                    <a class="link is-info  active" href="contact.html">Contact</a>
+                </p>
+            </nav>
+        </div>
+    </header>
+    <div class="selectMenu showMobile aboutUsMobileHeader">
+        <div class="logo">
+            <a href="index.html" class="linkToHome"><img class="wow fadeInDown" src="images/logoHeader.png" /></a>
+        </div>
+        <a class="toggleMobileNav" href="#">Meniu</a>
+        <ul style="display:none;">
+            <li><a href="index.html">Acasa</a></li>
+            <li><a href="despre-noi.html">Despre Noi</a></li>
+            <li><a href="noutati.html">A world</a></li>
+            <li><a href="servicii.html">Servicii</a></li>
+            <li><a href="preturi.html">Preturi</a></li>
+            <li><a class="activeMobile" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <section class="hero contact partners contactPage" id="contact">
+        <div class="container">
+            <div class="halfCol">
+                <h1 class="wow fadeInDown"><img src="images/title-icon.png"/></h1>
+                <h1 class="wow fadeInDown">Contact</h1>
+                <div class="columns">
+                    <div class="column">
+                        <p>Soseaua Pavel D. Kiseleff,
+                            <br> Nr. 55, Vila 4,
+                            <br> Sector 1, Bucuresti</p>
+                        <p><a class="button wow pulse animated mapButton" target="_blank" href="https://goo.gl/maps/1qCCTJAZERn">Vezi harta</a></p>
+                        <p class="numberContact">+40 766.277.276
+                        </p>
+                        <p class="numberContact">+40 765.736.117</p>
+                        <p class="numberContact">+40 311.061.408</p>
+                        <a class="email" href="mailto:contact@anticastudio.ro">contact@anticastudio.ro</a>
+                        <a class="email" href="">www.anticastudio.ro</a>
+                    </div>
+                </div>
+            </div>
+            <div class="halfCol">
+                <div class="apointments">
+                    <h1 class="wow fadeInDown"><img src="images/title-icon.png"/></h1>
+                    <h2 class="wow fadeInDown">Programari online</h2>
+                    <form id="programariForm" method="post" action="">
+                        <div class="control is-horizontal">
+                            <div class="control-label">
+                                <label class="label">Serviciu:</label>
+                            </div>
+                            <div class="control dateforDesktop">
+                                <section>
+                                    <select class="cs-select cs-skin-border" name="serviciu">
+                                        <option value="" disabled selected>Alege Serviciu</option>
+                                        <option value="coafor">Coafor</option>
+                                        <option value="frizerie">Frizerie</option>
+                                        <option value="manichiura">Manichiura</option>
+                                        <option value="pedichiura">Pedichiura</option>
+                                        <option value="cosmetica">Cosmetica</option>
+                                        <option value="make-up">Make-Up</option>
+                                        <option value="micropigmentare">Micropigmentare</option>
+                                        <option value="masaj">Masaj</option>
+                                    </select>
+                                </section>
+                            </div>
+                            <div class="control dateforMobile">
+                                <select class="" name="serviciu">
+                                    <option value="" disabled selected>Alege Serviciu</option>
+                                    <option value="coafor">Coafor</option>
+                                    <option value="frizerie">Frizerie</option>
+                                    <option value="manichiura">Manichiura</option>
+                                    <option value="pedichiura">Pedichiura</option>
+                                    <option value="cosmetica">Cosmetica</option>
+                                    <option value="make-up">Make-Up</option>
+                                    <option value="micropigmentare">Micropigmentare</option>
+                                    <option value="masaj">Masaj</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="control is-horizontal">
+                            <div class="control-label">
+                                <label class="label">Nume:</label>
+                            </div>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Nume" name="numele" required>
+                            </div>
+                        </div>
+                        <div class="control is-horizontal dateforDesktop">
+                            <div class="control-label">
+                                <label class="label">Data:</label>
+                            </div>
+                            <div class="control">
+                                <input class="input" type="text" id="datepicker" placeholder="zz/ll/aa" name="data">
+                            </div>
+                        </div>
+                        <div class="control is-horizontal dateforMobile">
+                            <div class="control-label">
+                                <label class="label">Data:</label>
+                            </div>
+                            <div class="control">
+                                <input class="input" type="date" id="" placeholder="zz/ll/aa" / name="data">
+                            </div>
+                        </div>
+                        <div class="control is-horizontal dateforDesktop">
+                            <div class="control-label">
+                                <label class="label">Ora:</label>
+                            </div>
+                            <div class="control">
+                                <input type="text" name="timepicker" class="time_element input" placeholder="Alege ora" name="ora" />
+                            </div>
+                        </div>
+                        <div class="control is-horizontal dateforMobile">
+                            <div class="control-label">
+                                <label class="label">Ora:</label>
+                            </div>
+                            <div class="control">
+                                <input type="time" name="" class="input" placeholder="Alege ora" name="ora" />
+                            </div>
+                        </div>
+                        <div class="control is-horizontal">
+                            <div class="control-label">
+                                <label class="label">Telefon:</label>
+                            </div>
+                            <div class="control">
+                                <input class="input" type="tel" placeholder="Telefon" name="telefon" required>
+                            </div>
+                        </div>
+                        <div class="control is-horizontal">
+                            <div class="control-label">
+                                <label class="label">Email:</label>
+                            </div>
+                            <div class="control has-icon has-icon-right">
+                                <input class="input" type="email" placeholder="Email" name="email" required>
+                            </div>
+                        </div>
+                        <input class="button wow pulse animated" type="submit" id="programariButton" value="Trimite">
+                    </form>
+                </div>
+            </div>
+            <form id="feedbackForm" method="post" action="">
+                <div class="apointments guestBook">
+                    <h1 class="wow fadeInDown"><img src="images/title-icon.png"/></h1>
+                    <h2 class="wow fadeInDown">Feedback Anonim</h2>
+                    <p>Aici poti lasa feedback, despre experienta ta in salonul nostru. Parerea ta conteaza pentru a continua imbunatatire a serviciilor noastre.</p>
+                    <textarea name="feedback" required></textarea>
+                    <input class="button wow pulse animated" id="feedbackButton" type="submit" value="Trimite">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="content is-centered">
+                <p>
+                    <a class="icon" target="_blank" href="https://www.facebook.com/anticastudio/">
+                        <img src="images/facebook-icon.png" />
+                    </a>
+                    <a class="icon" target="_blank" href="https://plus.google.com/u/0/+AnticaHairStudioBucure%C8%99ti">
+                        <img src="images/g-plus-icon.png" />
+                    </a>
+                    <a class="icon" target="_blank" href="https://www.instagram.com/antica.hair.studio/">
+                        <img src="images/instagram-icon.png" />
+                    </a>
+                    <a class="icon" target="_blank" href="https://www.youtube.com/channel/UCSfBj1qj_yfg_YC4FPo-BJw">
+                        <img src="images/youtube-icon.png" />
+                    </a>
+                </p>
+                <p>
+                    <strong>Antica Hair Studio</strong> 2016
+                </p>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="scrollup">Scroll</a>
+    <script type="text/javascript" src="js/libs/jquery-2.2.3.min.js"></script>
+    <script src="js/libs/modernizr-custom.js"></script>
+    <script type="text/javascript" src="js/libs/jquery-ui-date.js"></script>
+    <script type="text/javascript" src="js/libs/timepicki.js"></script>
+    <script type="text/javascript" src="js/libs/wow.min.js"></script>
+    <script type="text/javascript">
+    new WOW().init();
+    </script>
+    <script type="text/javascript" src="js/scrolled-menu.js"></script>
+    <script type="text/javascript" src="js/jquery-main.js"></script>
+    <script src="js/libs/classie.js"></script>
+    <script src="js/libs/selectFx.js"></script>
+    <script type="text/javascript" src="/js/libs/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/js/libs/jquery.validate_messages_ro.min.js"></script>
+    <script>
+    $("#feedbackForm").submit(function(e) {
+
+        var url = "https://formspree.io/contact@anticastudio.ro"; // the script where you handle the form input.
+
+        $("#feedbackButton").prop('disabled', true);
+
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: $("#feedbackForm").serialize(), // serializes the form's elements.
+            dataType: "json",
+            success: function(data) {
+                alert("Feedback-ul anonim a fost trimis!"); // show response from the php script.
+            }
+        });
+
+        e.preventDefault(); // avoid to execute the actual submit of the form.
+    });
+
+    $("#programariForm").submit(function(e) {
+
+        var url = "https://formspree.io/contact@anticastudio.ro"; // the script where you handle the form input.
+
+        $("#programariButton").prop('disabled', true);
+
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: $("#programariForm").serialize(), // serializes the form's elements.
+            dataType: "json",
+            success: function(data) {
+                alert("Cererea de programare a fost trimisa!"); // show response from the php script.
+            }
+        });
+
+        e.preventDefault(); // avoid to execute the actual submit of the form.
+    });
+
+    $("#feedbackForm").validate();
+
+    (function() {
+        [].slice.call(document.querySelectorAll('select.cs-select')).forEach(function(el) {
+            new SelectFx(el);
+        });
+    })();
+
+    $(document).ready(function() {
+        $(".time_element").timepicki({
+            show_meridian: false
+        });;
+    });
+
+    $(function() {
+        $("#datepicker").datepicker({
+            showOtherMonths: true,
+            selectOtherMonths: true
+        });
+    });
+    </script>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-85525745-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
